@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { gsap } from 'gsap'
 import { Button } from "@/components/ui/button"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { AlertCircle } from "lucide-react"
@@ -76,7 +76,7 @@ export default function SortingVisualizer() {
       setCurrentStep(`Inserting ${arr[i]} into the sorted portion`)
       await sleep(delay)
       let j = i - 1
-      let temp = arr[i]
+      const temp = arr[i]
       while (j >= 0 && arr[j] > temp) {
         setCurrentStep(`Moving ${arr[j]} to the right`)
         animateSwap(j, j + 1)
