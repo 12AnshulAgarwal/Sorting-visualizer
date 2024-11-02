@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sorting Visualizer
+
+![Sorting Visualizer](https://github.com/12AnshulAgarwal/Sorting-visualizer/blob/main/Website.png) <!-- Replace with a link to your project screenshot -->
+
+## Overview
+
+The **Sorting Visualizer** is an interactive web application that demonstrates various sorting algorithms in real-time. This project serves as an educational tool, allowing users to visualize the steps involved in sorting an array of numbers. It aims to simplify the understanding of sorting algorithms and enhance learning through visual engagement.
+
+## Key Features
+
+- **Interactive Visualization**: Users can input an array and see how sorting algorithms manipulate it step-by-step.
+- **Multiple Sorting Algorithms**: Supports a variety of algorithms, including:
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+  - Quick Sort
+- **User-Friendly Interface**: Built with intuitive controls for easy user interaction.
+- **Responsive Design**: Ensures accessibility on both desktop and mobile devices.
+
+## Technologies Used
+
+- **React**: For building a dynamic user interface.
+- **Next.js**: Provides server-side rendering and routing capabilities.
+- **TypeScript**: Enhances code quality with static typing.
+- **CSS Modules**: Implements modular styles to keep components clean and maintainable.
+- **Vercel**: Used for deploying the application effortlessly.
+
+## Development Highlights
+
+- **Algorithm Implementation**: Gained hands-on experience in implementing fundamental sorting algorithms, solidifying my understanding of their mechanics.
+- **React & Next.js**: Enhanced my skills in building performant web applications using React and Next.js, focusing on component-based architecture and routing.
+- **TypeScript Proficiency**: Improved my TypeScript knowledge by leveraging its features to build type-safe components and interfaces.
+- **UI/UX Design**: Focused on creating a user-friendly experience, ensuring smooth interaction with visual feedback.
 
 ## Getting Started
 
-First, run the development server:
+To run the project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensure you have [Node.js](https://nodejs.org/en/download/) installed on your machine.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/12AnshulAgarwal/Sorting-visualizer.git
